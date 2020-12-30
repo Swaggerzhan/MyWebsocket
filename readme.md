@@ -1,4 +1,4 @@
-# MyWebsocket聊天服务器
+# MyWebsocket聊天服务器(test)
 ### websocket连接后发送登陆包(以下包都以json格式发送)
     {
         "id": "user's id",      ------>ValueType = Int
@@ -43,3 +43,7 @@
 * utility.h 公共头文件
 * UserMap.h 维护用户的表
 * 项目依赖jsoncpp库
+
+##### 注
+本例子是建立在epoll上的，并且项目依赖jsoncpp库
+其中有一些debug用的打印用例。
