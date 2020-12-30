@@ -1,0 +1,1 @@
+g++ -o server main.cpp src/base64.cpp src/InterFace.cpp src/JsonCrypto.cpp src/sha1.cpp src/TcpHandler.cpp src/UserHandler.cpp src/UserMap.cpp src/WebsocketHandler.cpp -ljsoncpp
