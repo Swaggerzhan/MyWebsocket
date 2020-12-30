@@ -79,7 +79,7 @@ void JsonCrypto::LoginSuccess(char* msg_buf){
 void JsonCrypto::LoginFail(char* msg_buf){
     Json::Value root;
     //root["type"] = (int)LoginFail;
-    root["type"] = -3;
+    root["type"] = -1;
     root["message"] = "handshake fail!";
     std::string out = root.toStyledString();
     //std::cout << out << std::endl;
